@@ -23,9 +23,7 @@ body {
 .wrapper {
   margin: auto auto;
 }
-.hidden {
-  opacity: 0;
-}
+
 .intro {
   transition: all 1s ease-out;
   margin: 4rem auto 0 auto;
@@ -74,4 +72,59 @@ body {
   border: 1px solid white;
   color: white;
   cursor: pointer;
+}
+
+.mail-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.mail-screen input {
+  width: 13rem;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Blackhaus';
+  border-bottom: 3px solid grey;
+  transition: all 0.6s ease;
+}
+
+.mail-screen input:focus {
+  border-bottom: 3px solid white;
+}
+
+#mc-embedded-subscribe {
+  margin-top: 30vh;
+  align-self: flex-end;
+  border: none;
+  padding: 0.6rem;
+  color: grey;
+}
+
+#mc-embedded-subscribe:hover {
+  color: white;
+}
+
+.thank-screen {
+  font-size: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.thank-screen span {
+  margin-top: 10vh;
+  font-size: 2rem;
+}
+.thank-screen p {
+  font-size: 1rem;
+  margin-top: 10vh;
+}
+
+.hidden {
+  display: none;
 }
