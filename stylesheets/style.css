@@ -3,6 +3,11 @@
   src: url('../assets/blackhaus_regular.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Blackhaus';
+  src: url('../assets/blackhaus_regular.otf') format('opentype');
+}
+
 h1,
 h3 {
   font-family: 'Blackhaus';
@@ -141,7 +146,7 @@ body {
   display: none;
 }
 
-@media (max-width:320px) {
+@media (max-width:700px) {
 
   html {
     font-size: 3vw;
