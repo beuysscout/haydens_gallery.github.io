@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'Blackhaus';
-  src: url('../assets/blackhaus_regular.otf') format('opentype');
+  font-family: 'Din';
+  src: url('../assets/din_condensed.ttf') format('truetype');
 }
 
 h1,
@@ -62,7 +62,8 @@ body {
 }
 
 .location {
-  color: grey;
+  color: white;
+  font-family: 'Din';
   font-size: 1rem;
 }
 
@@ -71,8 +72,9 @@ body {
 }
 
 .mail-list {
+  font-family: 'Din';
   font-size: 0.8rem;
-  color: grey;
+  color: white;
   transition: all 0.6s ease;
   border: 1px solid grey;
   padding: 0.4rem;
@@ -98,7 +100,7 @@ body {
   width: 13rem;
   font-size: 2rem;
   color: white;
-  font-family: 'Blackhaus';
+  font-family: 'Din';
   border-bottom: 3px solid grey;
   transition: all 0.6s ease;
 }
