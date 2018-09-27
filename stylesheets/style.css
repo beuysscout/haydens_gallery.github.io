@@ -97,7 +97,7 @@ body {
 }
 
 .mail-screen input {
-  width: 13rem;
+  width: 10rem;
   font-size: 2rem;
   color: white;
   font-family: 'Din';
@@ -121,27 +121,9 @@ body {
   color: white;
 }
 
-.thank-screen {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
-}
-
-.thank-screen span {
-  margin-top: 10vh;
-  font-size: 2rem;
-}
-
-.thank-screen p {
-  font-size: 1rem;
-  margin-top: 10vh;
-}
-
-.thank-screen h1 {
-  font-size: 8rem;
+.thankyou {
+  font-family: 'Din';
+  padding-top: 15vh;
 }
 
 .hidden {
