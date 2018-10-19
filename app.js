@@ -1,8 +1,7 @@
 var mailList = document.querySelector(".mail-list")
 var introScreen = document.querySelector(".intro")
 var mailScreen = document.querySelector(".mail-screen")
-var thankyouText = document.querySelector(".thankyouText")
-
+var thankyouText = document.querySelector(".thank-screen")
 var emailForm = document.querySelector('#mc-embedded-subscribe-form')
 var date = document.querySelector(".date")
 var opening = document.querySelector(".opening")
@@ -12,6 +11,10 @@ var opening2 = document.querySelector(".opening2")
 mailList.addEventListener('click', () => {
   mailList.classList.toggle('fadeOut')
   introScreen.classList.toggle('fadeOut')
+
+
+
+
   setTimeout(() => {
     mailScreen.classList.toggle('hidden')
     mailScreen.classList.toggle('fadeIn')
@@ -27,11 +30,12 @@ emailForm.addEventListener('submit', () => {
       introScreen.classList.toggle('hidden')
       introScreen.classList.toggle('fadeOut')
       introScreen.classList.toggle('fadeIn')
-      date.classList.toggle('hidden')
-      opening.classList.toggle('hidden')
-      opening2.classList.toggle('hidden')
+      date.classList.toggle('fadeIn')
+      opening.classList.toggle('fadeIn')
+      opening2.classList.toggle('fadeIn')
 
-      thankyouText.classList.toggle('hidden')
-      thankyouText.classList.toggle('fadeIn')
+
+
+
     }, 1000);
 })
